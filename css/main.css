@@ -371,26 +371,31 @@ section#justify-content-section {
 .justify-content-space-between-parent-container {
   /* place your code here */
   display: flex;
+  justify-content: space-between;
 }
 
 .justify-content-space-around-parent-container {
   /* place your code here */
   display: flex;
+  justify-content: space-around;
 }
 
 .justify-content-space-evenly-parent-container {
   /* place your code here */
   display: flex;
+  justify-content: space-evenly;
 }
 
 .justify-content-flex-start-parent-container {
   /* place your code here */
   display: flex;
+  justify-content: flex-start;
 }
 
 .justify-content-flex-end-parent-container {
   /* place your code here */
   display: flex;
+  justify-content: flex-end;
 }
 
 /* end justify-content */
@@ -398,30 +403,42 @@ section#justify-content-section {
 /* align-items */
 section#align-items-section {
   /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .align-items-center-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .align-items-stretch-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 
 .align-items-baseline-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: baseline;
   justify-content: space-evenly;
 }
 
 .align-items-flex-start-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
 .align-items-flex-end-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: flex-end;
   justify-content: space-evenly;
 }
 
